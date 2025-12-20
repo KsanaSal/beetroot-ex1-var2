@@ -14,8 +14,8 @@
         <title>Beetroot Exam 1 Variant 2</title>
     </head>
     <body>
-        <header class="section">
-            <div class="container header">
+        <header class="section header">
+            <div class="container header-container">
                 <div class="header-content">
                     <a class="logo" href="/">
                         <svg class="logo-icon">
@@ -25,7 +25,7 @@
                     <nav class="nav">
                         <ul class="nav-list montserrat-medium">
                             <li class="nav-list-link">
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li class="nav-list-link"><a href="#">Help</a></li>
                             <li class="nav-list-link">
@@ -45,22 +45,31 @@
                     <svg class="button-icon icon-default">
                         <use href="./images/icons.svg#icon-arrow"></use>
                     </svg>
-                    <svg class="button-icon icon-hover">
-                        <use href="./images/icons.svg#icon-arrow-white"></use>
-                    </svg>
                 </button>
             </div>
         </header>
-        <main>
-            <section>
-                <h1>Save your data storage here.</h1>
-                <p>
-                    Data Warehouse is a data storage area that has been tested
-                    for security, so you can store your data here safely but not
-                    be afraid of being stolen by others.
-                </p>
-                <button type="button">Learn more</button>
-                <img src="" alt="" />
+        <main class="main">
+            <section id="about" class="hero section">
+                <div class="container hero-container">
+                    <div class="hero-content montserrat-medium">
+                        <h1 class="hero-title work-sans-bold">
+                            Save your data storage here.
+                        </h1>
+                        <p class="hero-text">
+                            Data Warehouse is a data storage area that has been
+                            tested for security, so you can store your data here
+                            safely but not be afraid of being stolen by others.
+                        </p>
+                        <button class="button button-secondary" type="button">
+                            Learn more
+                        </button>
+                    </div>
+                    <img
+                        class="hero-img"
+                        src="./images/hero-img.png"
+                        alt="Hero image"
+                    />
+                </div>
             </section>
             <section>
                 <img src="" alt="" />
