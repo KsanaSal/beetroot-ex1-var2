@@ -404,3 +404,161 @@ button {
             top 20px,
         var(--secondary-medium-background-color);
 }
+
+/* reviews section styles */
+.reviews {
+    padding-top: 120px;
+}
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 70px;
+    background: url("../images/reviews/bg-image1.png") no-repeat right 0px top
+            0px,
+        url("../images/reviews/bg-image2.png") no-repeat left 0px top 0px,
+        var(--secondary-dark-background-color);
+    border-radius: 50px;
+}
+.title-reviews {
+    color: var(--gray-dark-text-color);
+}
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.reviews-card {
+    display: flex;
+    justify-content: space-between;
+    width: 465px;
+    height: 300px;
+    padding: 50px 30px;
+    background-color: var(--light-background-color);
+    border-radius: 50px;
+    border: 1px solid var(--accent-dark-background-color);
+    box-shadow: var(--shadow);
+}
+.reviews-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 200px;
+}
+.reviews-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.reviews-name {
+    color: var(--dark-text-color);
+}
+.reviews-link {
+    color: var(--accent-dark-background-color);
+}
+
+/* footer section styles */
+.footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.footer-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 370px;
+}
+.footer-text {
+    font-size: 18px;
+}
+.footer-button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.button-third {
+    width: 210px;
+    background-color: var(--primary-dark-background-color);
+    border: 1px solid var(--primary-dark-background-color);
+    color: var(--light-text-color);
+}
+.button-third:hover {
+    background: var(--primary-hover-background-color);
+    border: 1px solid var(--primary-hover-background-color);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 300px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo-text {
+    font-size: 20px;
+    color: var(--dark-text-color);
+}
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--dark-text-color);
+}
+.footer-address-link {
+    color: var(--dark-text-color);
+}
+.footer-address-link:hover {
+    color: var(--accent-hover-background-color);
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-text-color);
+    width: 670px;
+}
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-nav-link {
+    color: var(--dark-text-color);
+}
+.footer-nav-link:hover {
+    color: var(--accent-hover-background-color);
+}
+.footer-nav-socials {
+    display: flex;
+    gap: 15px;
+}
