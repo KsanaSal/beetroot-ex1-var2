@@ -562,3 +562,55 @@ button {
     display: flex;
     gap: 15px;
 }
+.social-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--icon-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-light-color);
+    border: none;
+}
+.social-icon {
+    fill: currentColor;
+}
+.social-facebook {
+    width: 10px;
+    height: 21px;
+}
+.social-twitter {
+    width: 19px;
+    height: 15px;
+}
+.social-instagram {
+    width: 16px;
+    height: 16px;
+}
+.social-item:hover {
+    background-color: var(--light-background-color);
+    color: var(--icon-hover-color-facebook);
+}
+.social-item-facebook:hover {
+    border: 1px solid var(--icon-hover-color-facebook);
+}
+.social-facebook:hover {
+    color: var(--icon-hover-color-facebook);
+}
+.social-item-twitter:hover {
+    border: 1px solid var(--icon-hover-color-twitter);
+}
+.social-twitter:hover {
+    color: var(--icon-hover-color-twitter);
+}
+.social-item-instagram:hover {
+    border: 1px solid var(--icon-hover-color-instagram);
+}
+.social-instagram:hover {
+    color: var(--icon-hover-color-instagram);
+}
+.footer-copyright {
+    font-size: 12px;
+    width: 275px;
+}
